@@ -16,4 +16,10 @@ app.get('/twitter',(req,res)=>{
     res.send("Hello twitter")
 })
 
+
+app.get('/facebook',(req,res)=>{
+    res.send("Hello facebook")
+})
+
+
 app.listen(process.env.PORT);
